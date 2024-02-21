@@ -1,0 +1,111 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.gamme,
+.fingerR{
+    display : none;
+}
+
+body{
+    background:  /*center 50px/ contain no-repeat url(logo.png),*/ 
+    radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(96,96,96,1) 100%);
+    width: 100vh;
+
+    margin : 0 auto;
+}
+
+.backgrounding{
+    position: relative;
+    z-index: -200;
+    margin-top: 7rem;
+}
+
+:is(img, main){
+    max-height: 35rem;
+    opacity: 0.2;
+    position : absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+section {
+    opacity : 1;
+    margin: 30px;
+    padding: 30px 0px;
+    border-radius: 8px;
+    border: solid rgba(42, 42, 43, 0.25) .5px;
+    box-shadow: rgba(42, 42, 43, 0.4) 4px 4px ;
+    font-family: 'Roboto';
+    color : #191d1e;
+}
+
+.main{
+    /*background-color:rgba(164, 265, 90, 0.25);*/ 
+    background-color:rgb(223, 230, 233, 0.25);
+
+    text-align: center ;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Metal Mania';
+    font-size: 70px;
+    text-align: center;
+    padding: 20px;
+    width : 100%;
+}
+
+.training{
+    cursor:pointer;
+}
+.training:hover{
+    color:rgb(25, 29, 30, 0.7);
+    transition: 0.5s ease-out;
+}
+
+.bloc{
+    padding-top: 20px;
+    padding-bottom : 10px;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p{
+    padding-top : 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.bloc-note{
+    background-color: rgba(249, 234, 100, 0.547);
+    width: 50%;
+    padding: 30px;
+}
+
+h3{
+    text-align: left;
+    width : 100%;
+    padding: 15px;
+}
+
+.note p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+ul, 
+.new-note{
+    min-height: 150px;
+    margin : 5px;
+    padding : 15px;
+    list-style: none;
+    border: rgb(182, 145, 59, 0.8) dashed 0.5px;
+    border-radius: 4px;
+}
